@@ -1,0 +1,23 @@
+{
+  "$id": "demo-search-clicks-type-bar",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Demo Searches Clicks by Click Type",
+  "description": "Demo Searches Clicks by Click Type",
+  "query": {
+    "metrics": [
+      "yext/DEMO_SEARCH_CLICKS"
+    ],
+    "dimensions": [
+      "yext/ANSWERS_CLICK_TYPE"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_14"
+      }
+    ]
+  },
+  "display": {
+    "bar": {}
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$id": "demo-answered-missed-calls-day-line",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Demo Answered vs Missed Calls",
+  "description": "Demo Missed Calls and Demo Answered Calls by Day",
+  "query": {
+    "metrics": [
+      "yext/DEMO_MISSED_CALLS",
+      "yext/DEMO_ANSWERED_CALLS"
+    ],
+    "dimensions": [
+      "yext/DAYS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_30"
+      }
+    ]
+  },
+  "display": {
+    "line": {}
+  }
+}

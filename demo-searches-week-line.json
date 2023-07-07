@@ -1,0 +1,23 @@
+{
+  "$id": "demo-searches-week-line",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Demo Searches by Week",
+  "description": "Demo Searches by Week",
+  "query": {
+    "metrics": [
+      "yext/DEMO_SEARCHES"
+    ],
+    "dimensions": [
+      "yext/WEEKS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "MONTHS_1"
+      }
+    ]
+  },
+  "display": {
+    "line": {}
+  }
+}

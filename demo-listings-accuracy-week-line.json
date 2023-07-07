@@ -1,0 +1,25 @@
+{
+  "$id": "demo-listings-accuracy-week-line",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Demo Listings Accuracy by Week",
+  "description": "Demo Listings Accuracy by Week",
+  "query": {
+    "metrics": [
+      "yext/DEMO_LISTINGS_ACCURACY"
+    ],
+    "dimensions": [
+      "yext/WEEKS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "WEEKS_16"
+      }
+    ]
+  },
+  "display": {
+    "line": {
+      "area": true
+    }
+  }
+}

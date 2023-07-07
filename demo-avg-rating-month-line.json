@@ -1,0 +1,23 @@
+{
+  "$id": "demo-avg-rating-month-line",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Demo Average Rating by Month",
+  "description": "Demo Average Rating by Month",
+  "query": {
+    "metrics": [
+      "yext/DEMO_AVERAGE_RATING"
+    ],
+    "dimensions": [
+      "yext/MONTHS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "MONTHS_13"
+      }
+    ]
+  },
+  "display": {
+    "line": {}
+  }
+}
