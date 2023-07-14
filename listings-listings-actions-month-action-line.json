@@ -1,0 +1,26 @@
+{
+    "$id": "listings-listings-actions-month-action-line",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Listings Actions by Month and Action",
+    "description": "Listings Actions by Month and Action",
+    "query": {
+      "metrics": [
+        "yext/LISTINGS_ACTIONS"
+      ],
+      "dimensions": [
+        "yext/ACTION",
+        "yext/MONTHS"
+      ],
+      "filters": [
+        {
+          "filter": "yext/date",
+          "in": "MONTHS_1"
+        }
+      ]
+    },
+    "display": {
+      "line": {
+        "area": true
+      }
+    }
+  }

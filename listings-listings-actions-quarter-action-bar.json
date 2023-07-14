@@ -1,0 +1,26 @@
+{
+    "$id": "listings-listings-actions-quarter-action-bar",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Listings Actions by Quarter and Action",
+    "description": "Listings Actions by Quarter and Action",
+    "query": {
+      "metrics": [
+        "yext/LISTINGS_ACTIONS"
+      ],
+      "dimensions": [
+        "yext/QUARTERS",
+        "yext/ACTION"
+      ],
+      "filters": [
+        {
+          "filter": "yext/date",
+          "in": "QUARTERS_1"
+        }
+      ]
+    },
+    "display": {
+      "bar": {
+        "style": "STACKED"
+      }
+    }
+  }

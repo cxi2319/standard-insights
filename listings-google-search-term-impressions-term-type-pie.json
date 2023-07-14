@@ -1,0 +1,26 @@
+{
+  "$id": "google-search-term-impressions-term-type-pie",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Google Search Term Impressions by Google Search Term Type",
+  "description": "Google Search Term Impressions by Google Search Term Type",
+  "query": {
+    "metrics": [
+      "yext/LISTINGS_GOOGLE_SEARCH_TERM_IMPRESSIONS"
+    ],
+    "dimensions": [
+      "yext/TERM_TYPE"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "WEEKS_12"
+      }
+    ]
+  },
+  "display": {
+    "pie": {
+      "showLabels": true,
+      "style": "DOUGHNUT"
+    }
+  }
+}

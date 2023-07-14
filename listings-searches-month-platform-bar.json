@@ -1,0 +1,20 @@
+{
+    "$id": "listings-searches-month-platform-bar",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Searches by Month and Platform",
+    "description": "Searches by Month and Platform",
+    "query": {
+      "metrics": [
+        "yext/SEARCHES"
+      ],
+      "dimensions": [
+        "yext/PLATFORM",
+        "yext/MONTHS"
+      ]
+    },
+    "display": {
+      "bar": {
+        "style": "STACKED"
+      }
+    }
+  }
